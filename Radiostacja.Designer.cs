@@ -57,6 +57,7 @@ namespace CodeBeamerRadiostacja
             btnStart.TabIndex = 1;
             btnStart.Text = "Test";
             btnStart.UseVisualStyleBackColor = true;
+            btnStart.Click += btnStart_Click;
             // 
             // Radiostacja
             // 

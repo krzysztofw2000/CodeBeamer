@@ -7,5 +7,10 @@ namespace CodeBeamerRadiostacja
             //start 
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test dzia³a poprawnie!");
+        }
     }
 }
