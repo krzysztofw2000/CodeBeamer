@@ -4,6 +4,7 @@ namespace CodeBeamerRadiostacja
     {
         public Radiostacja()
         {
+            //start 
             InitializeComponent();
         }
     }

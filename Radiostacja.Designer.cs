@@ -57,7 +57,6 @@ namespace CodeBeamerRadiostacja
             btnStart.TabIndex = 1;
             btnStart.Text = "Test";
             btnStart.UseVisualStyleBackColor = true;
-            btnStart.Click += this.btnStart_Click;
             // 
             // Radiostacja
             // 
@@ -70,19 +69,6 @@ namespace CodeBeamerRadiostacja
             Text = "Panel radiostacji";
             ResumeLayout(false);
             PerformLayout();
-        }
-
-
-
-        
-
-        private void btnStart_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-
-            // pierwsze światło - zielone
-            //trafficLightControl1.State = SignalState.Green;
-            MessageBox.Show("Test");
         }
 
         #endregion
